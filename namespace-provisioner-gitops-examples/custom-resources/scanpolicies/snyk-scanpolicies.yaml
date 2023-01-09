@@ -1,5 +1,5 @@
 #@ load("@ytt:data", "data")
-
+#@ if/end hasattr(data.values, "scanpolicy") and data.values.scanpolicy == "snyk":
 ---
 apiVersion: scanning.apps.tanzu.vmware.com/v1beta1
 kind: ScanPolicy
