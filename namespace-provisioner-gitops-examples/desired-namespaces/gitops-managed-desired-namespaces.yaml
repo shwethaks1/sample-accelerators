@@ -16,4 +16,7 @@ data:
       language: java
       scanpolicy: snyk
     - name: my-apps2
+      scanpolicy: snyk
+    - name: my-apps3
+      scanpolicy: snyk
     
