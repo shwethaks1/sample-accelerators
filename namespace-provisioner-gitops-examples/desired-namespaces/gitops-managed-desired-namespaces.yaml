@@ -12,11 +12,7 @@ data:
     #@data/values
     ---
     namespaces:
-    - name: my-apps
+    - name: my-apps1
       language: java
-      scanpolicy: snyk
-    - name: my-apps2
-      scanpolicy: snyk
-    - name: my-apps3
-      scanpolicy: snyk
+     // scanpolicy: snyk
     
