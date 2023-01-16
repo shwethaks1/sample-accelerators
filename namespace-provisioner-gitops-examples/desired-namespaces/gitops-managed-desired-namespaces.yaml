@@ -13,6 +13,3 @@ data:
     ---
     namespaces:
     - name: my-apps1
-      language: java
-     // scanpolicy: snyk
-    
